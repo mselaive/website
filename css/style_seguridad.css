@@ -1,0 +1,126 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; /** Reset rems **/
+}
+  *, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.2;
+    background-color: rgb(36, 34, 34);
+/**Afecta a  todo lo que este en body **/
+}
+
+h1 {
+    font-size: 3.8rem;
+
+}
+
+img {
+    max-width: 100%;
+}
+
+.site-header {
+    background-image: url(/img/chl2.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 80.5rem;
+    min-height: 20rem;
+    padding: 3rem;
+
+}
+
+.content-header{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.barra{
+    background-color: rgb(36, 34, 33, .9);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.navegacion a{
+    font-size: 3rem;
+    margin-right: 4rem;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.navegacion a:hover{
+    color: rgb(221, 137, 42);
+    transition: 0.5s;
+}
+
+.logo {
+    max-height: 14rem;
+}
+
+.uai{
+    padding: 3rem;
+}
+
+.centro{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.texto{
+    font-size: 2.6rem;
+    color: white;
+    width: 100rem;
+    max-width: 50%;
+    text-align: justify;
+    padding: 0rem 1rem 0rem 0rem;
+    
+}
+
+.seguridad{
+    height: 75%;
+    min-height: 50rem;
+    width: 125%;
+    min-width: 60rem;
+    padding: 5rem 0rem 3rem 3rem;
+    position: left;
+
+}
+
+.referencias{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: flex-end;
+}
+
+.refe{
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+}
+
+.refe a{
+    text-decoration: none;
+    color: rgb(75, 72, 72);
+    margin-right: 4rem;
+}
+
+.ley {
+    font-size: 3rem;
+}
+
+.leyenda{
+    background-color: rgb(207, 21, 45);
+    padding: 0.5rem;
+}
+
+.segu{
+    font-size: 3rem;
+}
